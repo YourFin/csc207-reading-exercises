@@ -1,4 +1,4 @@
-public class LnkList {
+public class LnkList implements List {
 	private static class Node {
 		public Object oo;
 		public node next;
@@ -21,6 +21,9 @@ public class LnkList {
 		firstNode = null;
 	}
 
+	public Object get(int index) {
+
+	}
 	public void addFirst (Object oo) {
 		firstNode = new Node(oo, firstNode);
 	}
@@ -53,9 +56,4 @@ public class LnkList {
 			addLastRec(object, nn.next);
 		}
 	}
-}
-				
-
-	}
-
 }

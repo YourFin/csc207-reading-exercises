@@ -1,0 +1,4 @@
+Subtyping:
+1. The code does not type check;
+2. It says that bar() is undefined for type I. 
+Thus there is safe code that can be rejected by Java's type system.
